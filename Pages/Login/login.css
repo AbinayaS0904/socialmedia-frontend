@@ -1,0 +1,65 @@
+.maincontainerForLogin {
+    background: linear-gradient(45deg, #dd5454, #c572cd, #a4bfd4);
+    height: 100vh;
+}
+
+.submainContainer {
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.logoText {
+    font-size: 70px;
+    text-align: start;
+    margin-top: 0px;
+}
+
+.introText {
+    font-size: 50px;
+    text-align: start;
+    margin-top: -40px;
+}
+
+.loginTxt {
+    text-align: center; /* Center the text */
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.inputText {
+    display: flex;
+    margin-left: 70%;
+    width: 40%;
+    margin-top: 40px;
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.btnForLogin {
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 20px 90px;
+    border-radius: 5px;
+    background-color: #007bff; /* Added background color for the button */
+    color: #fff; /* Set text color to white */
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.btnForLogin:hover {
+    background-color: #218838; /* Darker green color on hover */
+}
+
+.submainContainer p {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 30px;
+}

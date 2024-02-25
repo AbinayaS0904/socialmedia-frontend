@@ -1,0 +1,62 @@
+.ProfileLeftbar {
+    flex: 1;
+}
+
+.NotificationContainer {
+    width: 850px;
+    height: 60vh;
+    background-color:white;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+    margin-left: -300px;
+}
+
+
+
+.Profilepageimage {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: fill;
+    margin-left:10px;
+   
+}
+
+.ProfilepageCover {
+    width: 800px;
+    height: 300px;
+    object-fit: fill;
+
+    
+}
+
+.friendimage{
+    height:300px;
+    width:250px;
+    object-fit: cover;
+    border-radius:10px;
+}
+
+.likeimage {
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    border-radius: 3px;
+}
+
+
+
+.explore-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.explore-image-item {
+    width: 23%;
+    margin-bottom: 10px;
+}

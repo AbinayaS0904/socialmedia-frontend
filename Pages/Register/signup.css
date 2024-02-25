@@ -1,0 +1,63 @@
+.maincontainerForsignup {
+    background: linear-gradient(45deg, #dd5454, #c572cd, #a4bfd4);
+    height: 100vh;
+}
+
+.submainConatainer {
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.logoText {
+    font-size: 90px !important;
+    font-weight: bolder;
+    text-align: start;
+    margin-top: 0px;
+    font-family: cursive;
+}
+
+.introtext {
+    font-size: 50px;
+    text-align: start;
+    margin-top: -40px;
+}
+
+.createaccountTxt {
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 30px; /* Adjusted margin-left value */
+}
+
+.inputText {
+    display: flex;
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 40px;
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.btnforsignup {
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 20px 90px;
+    border-radius: 5px;
+    background-color: #007bff; /* Added background color for the button */
+    color: #fff; /* Set text color to white */
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.btnforsignup:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.submainConatainer p {
+    margin-top: 20px; /* Added margin to the paragraph */
+    text-align: start;
+    margin-left: 30px; /* Adjusted margin-left value */
+}

@@ -1,0 +1,13 @@
+.home {
+    background-color: #e9f2fa;
+    height: 195vh;
+    margin-top: 20px;    
+}
+
+.ComponentContainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}

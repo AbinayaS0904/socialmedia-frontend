@@ -1,0 +1,98 @@
+.mainNavbar {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px; /* Adjusted the overall height */
+    
+    background-color: white;
+    border-bottom-left-radius: 13px; /* Adjusted the radius */
+    border-bottom-right-radius: 13px;
+    margin-bottom: 50px;
+    
+}
+
+.LogoContainer {
+    flex: 0.2; /* Adjusted the flex for logo */
+}
+
+.LogoContainer h1 {
+    margin: 0; /* Remove default margin for h1 */
+    font-size: 53px; /* Adjusted font size */
+}
+
+.searchInputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    height: 80px; /* Increased height */
+    width: 1000px; /* Increased width for 1920 x 1080 resolution */
+    margin-top: 4px; /* Increased the margin */
+    margin-left: 300px;
+    background-color: rgb(224, 228, 232);
+    padding: 5px;
+    border-radius: 10px;
+    
+    
+}
+
+.IconsContainer {
+    display: flex;
+    align-items: center;
+    flex: 0.4; /* Adjusted the flex for icons */
+    /*justify-content: flex-end;*/
+}
+
+.Icons {
+    width: 80px; /* Adjusted the width of icons */
+    height: 80px; /* Adjusted the height of icons */
+    margin-left: 70px; /* Increased the margin */
+}
+
+.ProfileImage {
+    width: 100px; /* Adjusted the width of the profile image */
+    height: 100px; /* Adjusted the height of the profile image */
+    border-radius: 50%;
+    margin-left: 50px; /* Adjusted the margin */
+}
+
+.searchIcon {
+    width: 80px; /* Adjusted the width of the search icon */
+    height: 80px; /* Adjusted the height of the search icon */
+}
+
+.searchInputContainer input {
+    width: 100%;
+    height: 80%; 
+    font-size: 40px; 
+}
+
+.searchInput{
+    border:none;
+    padding:4px;
+    border-radius: 10px;
+    background-color: rgb(224, 228, 232);
+}
+
+.profileContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ProfileImage {
+    margin-right: 5px; /* Adjust the margin as needed */
+    margin-bottom: -55px;
+  }
+  
+  .profileName {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 25px; /* Adjust the margin as needed */
+    color: black; /* Set the color as needed */
+  }
+  
+  .profileLink {
+    text-decoration: none; /* Remove underline from the link */
+    color: black; /* Set the color as needed */
+  }
